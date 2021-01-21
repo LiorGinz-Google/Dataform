@@ -15,8 +15,10 @@ config {
     uniqueKey: ["id"]
   }
 }
+
+
 SELECT
-  orders.date AS order_date,
+  orders.date AS order_date_change,
   orders.id AS id,
   orders.customer_id AS customer_id,
   orders.status AS order_status,
